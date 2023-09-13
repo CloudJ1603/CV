@@ -2,100 +2,67 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Francis' Personal Site</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jia (Francis) Lu - Personal Page</title>
+    <style>
+        .footer-icons a {
+            margin: 0 15px; /* This will add space between each icon */
+            color: #666; /* Adjusting the color to be lighter */
+            transition: color 0.3s ease;
+        }
+                
+        .footer-icons a:hover {
+            color: #ff9900;
+        }
 
+        .cv {
+            max-width: 800px;
+            margin: 80px auto 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        
+        /* You can also add additional styles specific to the index page here */
+    </style>
 </head>
 
 <body>
-    <table CELLPADDING="10" CELLSPACING="0">
-        <tr>
-            <TD ALIGN=LEFT VALIGN=TOP WIDTH=151>
-                <img src="images/ProfilePicture-modified.png" alt="Francis Profile Picture">
-            </TD>
-            <td ALIGN=LEFT VALIGN=TOP>
-                <h1>Jia (Francis) Lu</h1>
-                <p><em><strong>Master of Engineering in Computer Engineering</strong></em></p>
-                <p><em><strong>Department of <a href="https://ece.ubc.ca/">Electrical and Computer
-                                Engineering</a></strong></em></p>
-                <p><em><strong><a href="https://www.ubc.ca/">University of British Columbia</a></strong></em></p>
-                <p>I am a graduate stduent specialized in Computer Engineering at UBC. I am currently learning HTML,
-                    CSS,
-                    Javscript and other web development tool. I like hiking, all kinds of ball games and outdoor
-                    activities. </p>
-            </td>
-        </tr>
-    </table>
+    <div class="dashboard">
+        <a href="index.html" class="dashboard-button">About</a>
+        <a href="https://flowcv.com/resume/jk2b7fid1s" target="_blank" rel="noopener noreferrer" class="dashboard-button">CV</a>
+        <a href="learning.html" class="dashboard-button">Learning</a>
+        <a href="life.html" class="dashboard-button">Life</a>
+    </div>
+    
+    <div class="cv">
+        <!-- Profile and About Me Section -->
+        <header>
+            <h1>Jia (Francis) Lu</h1>
+            <p>Software Developer</p>
+            <img src="images/ProfilePicture-modified.png" alt="Your Name's Profile Photo" class="profile-photo">
+            <p>
+                I'm a passionate developer with a love for coding and creating experiences. 
+                I thrive on tackling challenging problems and turning ideas into reality. 
+                When I'm not coding, you'll find me exploring new technologies and sharing my knowledge with others.
+            </p>
+        </header>
 
-    <hr size="2" color="grey">
+        <!-- ... The rest of the sections can remain similar ... -->
 
-    <h3>Work Experience</h3>
-    <table cellspacing = "10">
-        <tr>
-            <td>2019-2021</td>
-            <td>Project Estimator</td>
-        </tr>
-        <tr>
+    </div>
 
-        </tr>
-    </table>
-    <hr size="2" color="grey">
-
-    <h3>Skills</h3>
-
-    <!--  nested table   -->
-    <!-- <table>
-        <tr>
-            <td>
-
-            </td>
-            <td>
-                
-            </td>
-        </tr>
-    </table> -->
-
-    <table cellspacing = "10">
-        <tr>
-            <td>C++</td> 
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Java</td> 
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>HTML</td> 
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>CSS</td> 
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Javscript</td> 
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-    </table>
-    <hr size="2" color="grey">
-
-    <h3>Publication</h3>
-    <ul>
-        <li>J. Zhou, J. Lu, S. Ebrahimi and J. Jatskevich,
-            "Dynamic performance improvement of brushless dc motors using a hybrid MTPV/MTPA control"</li>
-        <li>J. Lu, C. Jiang, H. Xue, A. Ametani, A. Gole,
-            "Study on Numerical Fourier and Laplace Transformation"</li>
-    </ul>
-
-    <h3>Research Experience</h3>
-
-    <hr size="2" color="grey">
-
-    <a href="hobbies.html">My Hobbies</a>
-
-    <a href="contact-me.html">Contact Me</a>
+    <footer class="footer">
+        <div class="footer-icons">
+            <a href="mailto:your.email@example.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
 
 </body>
 

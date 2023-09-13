@@ -1,23 +1,100 @@
 body {
-    background-color: #ECF9FF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.profile-photo {
+    max-width: 200px; /* Adjust as needed */
+    display: block;
+    margin: 0 auto 20px; /* Center the image and add space below */
 }
 
-hr {
-    background-color: white;
-    /* border-style: dotted none none none; */
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    height: 0px;
-    width: 5%;
+.cv {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 60px; /* Added padding to accommodate the footer */
+    padding-top: 60px; /* Adjust as needed depending on the height of your dashboard */
 }
-
 h1 {
-    color: #66BFBF;
+    color: #333;
+}
+h2 {
+    color: #666;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ul li {
+    margin-bottom: 10px;
+}
+header {
+    text-align: center;
+}
+.self-intro {
+    margin-top: 30px;
+    text-align: center;
+}
+.self-intro p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* Add a background color to the sections above Recent Activities */
+.section-above-recent-activities {
+    background-color: #f0f0f0; /* Adjust the color as needed */
+    padding: 20px;
+    margin-bottom: 20px; /* Add margin to separate from the sections below */
+}
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%; /* Set the width to 100% */
+}
+.footer-icons {
+    font-size: 24px;
+}
+.footer-icons a {
+    color: #ff9900;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer-icons a:hover {
+    text-decoration: underline;
 }
 
-h3 {
-    color: #66BFBF;
+.dashboard {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    width: 100%; /* Set the width to 100% */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the dashboard stays above other content */
 }
 
+.dashboard-button {
+    color: #ff9900;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+    background-color: #555;
+    text-decoration: underline;
+}

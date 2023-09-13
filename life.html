@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life & Hobbies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .dashboard {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .dashboard-button {
+            color: #ff9900;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dashboard-button:hover {
+            background-color: #555;
+            text-decoration: underline;
+        }
+
+        .cv {
+            max-width: 800px;
+            margin: 80px auto 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .hobby {
+            border-left: 4px solid #ff9900;
+            padding-left: 20px;
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .hobby:before {
+            content: '\2022'; /* Unicode for a bullet */
+            font-size: 30px;
+            position: absolute;
+            left: -18px;
+            top: 0;
+            color: #ff9900;
+        }
+
+        .hobby img {
+            max-width: 100%; /* Helps to keep image responsive */
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+        }
+
+        .hobby-caption {
+            color: #666;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="dashboard">
+        <a href="index.html" class="dashboard-button">About</a>
+        <a href="https://flowcv.com/resume/jk2b7fid1s" target="_blank" rel="noopener noreferrer" class="dashboard-button">CV</a>
+        <a href="learning.html" class="dashboard-button">Learning</a>
+        <a href="life.html" class="dashboard-button">Life</a>
+    </div>
+
+    <div class="cv">
+        <h1>My Hobbies</h1>
+
+        <section class="hobby">
+            <img src="images/hiking.jpg" alt="Hiking">
+            <p class="hobby-caption">Hiking in the mountains, my way of recharging.</p>
+        </section>
+
+        <section class="hobby">
+            <img src="images/fishing.jpg" alt="Fishing">
+            <p class="hobby-caption">A peaceful day fishing by the lake.</p>
+        </section>
+
+        <!-- Add more hobbies as needed -->
+
+    </div>
+</body>
+
+</html>
