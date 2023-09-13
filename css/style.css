@@ -61,12 +61,13 @@ header {
     font-size: 24px;
 }
 .footer-icons a {
-    color: #ff9900;
-    margin: 0 10px;
-    text-decoration: none;
+    margin: 0 40px; /* This will add space between each icon */
+    color: #666; /* Adjusting the color to be lighter */
+    transition: color 0.3s ease;
 }
+        
 .footer-icons a:hover {
-    text-decoration: underline;
+    color: #ff9900;
 }
 
 .dashboard {
